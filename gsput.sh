@@ -10,9 +10,9 @@ echo -e  "#=============================================================#"
 # gsutil -m cp -r dir gs://my-bucket
 
 echo -e "which folder will be put into gStorage ? : \n the format must like /etc/apache/ !!! ";
-echo "input Dirname : "(must corectly format, like /etc/apache/)"";
+echo "input Dirname : (must corectly format, like /etc/apache/)";
 read fileDir;
 echo -e "gsUtil link ? : \n the format must like gs://my-bucket !!! ";
-echo "input bucketName : "(must corectly format, gs://my-bucket)"";
+echo "input bucketName : (must corectly format, gs://my-bucket)";
 read bucketName;
 sudo screen gsutil -m cp -r $fileDir $bucketName;
