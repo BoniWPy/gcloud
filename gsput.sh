@@ -9,6 +9,8 @@ echo -e  "# License URI:  http://www.gnu.org/licenses/gpl-3.0.html      #"
 echo -e  "#=============================================================#"
 # gsutil -m cp -r dir gs://my-bucket
 
+echo -e " THIS SCRIPT FOT PUT THE FILES INTO STORAGE";
+
 echo -e "which folder will be put into gStorage ? : \n the format must like /etc/apache/ !!! ";
 echo "input Dirname : (must corectly format, like /etc/apache/)";
 read fileDir;
